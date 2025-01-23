@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ff88;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #cccccc;
+  }
+  
+  a {
+    color: #00ff88;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #00ff88, #007bff);
+    color: #1a1a1a;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #1a1a1a;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 0;
+  }
+  
+  #about {
+    background-color: #2a2a2a;
+  }
+  
+  #skills {
+    background-color: #1a1a1a;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #00ff88;
+  }
+  
+  #projects {
+    background-color: #2a2a2a;
+  }
+  
+  .project-card {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card p {
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #00ff88;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00cc66;
+    text-decoration: none;
+  }
+  
+  #contact {
+    background-color: #1a1a1a;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #cccccc;
+  }
